@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the portrait xml file contains all view components of fragment_list
+     Contains two LinearLayout, SearchView, ListView as well as several textViews
+     Created by Gemma Grant s2030516 on 04/04/2022 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemListSearchView"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search for roads..." />
+
+    <ListView
+        android:id="@+id/parsedListView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:smoothScrollbar="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/descriptionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/linkTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/pubDateTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            />
+    </LinearLayout>
+</LinearLayout>

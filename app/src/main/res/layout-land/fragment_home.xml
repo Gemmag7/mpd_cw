@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Home Fragment xml file that displays the home page fragment that contains a welcome message to user. -->
+<!-- This is displayed using a Text view tht is contained in a Linear Layout -->
+<!-- Created on the 25/03/2022 by Gemma Grant s2030516-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/salutation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:text="Welcome to Mobile Platform Development Assignment 2021 - 2022"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/acknowledgement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_description"
+        android:textSize="15sp" />
+
+</LinearLayout>

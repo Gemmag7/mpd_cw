@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grant_Gemma_S2030516</string>
+    <string name="navigation_drawer_opened">Open navigation drawer</string>
+    <string name="navigation_drawer_closed">Closed navigation drawer</string>
+    <string name="salutation_message">Welcome to Mobile Platform Development Assignment 2021 - 2022</string>
+    <string name="app_description">This app displays Traffic Scotland Data for current roadworks and incidents as well as planned roadworks for the future.</string>
+    <!-- the default blank fragment message when generating a blank fragment -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

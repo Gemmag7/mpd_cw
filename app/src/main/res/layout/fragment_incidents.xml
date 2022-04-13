@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Portrait layout version of teh fragment incidents list view -->
+<!-- created on 10/04/2022 by gemma Grant s2030516 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemListSearchView"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search for roads..." />
+
+    <ListView
+        android:id="@+id/parsedListView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:paddingBottom="10px"
+            />
+
+        <TextView
+            android:id="@+id/descriptionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10px"
+            />
+
+        <TextView
+            android:id="@+id/linkTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10px"
+            />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

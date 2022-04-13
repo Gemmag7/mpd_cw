@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the portrait xml file is used for displaying the header of the app which contains a LinearLayout,
+     a textview and an imageView. The imageView contains an icon image to display in the header.
+     Created on 02/04/2022 by Gemma Grant s2030516-->
+
+<!--This is the header for the navigation side drawer-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/purple_500"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="19dp"
+        android:text="Traffic Scotland"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:background="?attr/colorPrimary"
+        android:src="@drawable/ic_8_car"
+         />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the portrait xml file is used when the custom item_adapter calls in the fragment and displays the data selected
+     Created on 04/04/2022 by Gemma Grant s2030516-->
+
+<!--This is the layout that will be used by the custom array adapter
+and will be used for each item in the list-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/startDateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text=" - "
+        android:textSize="15sp"
+
+         />
+
+    <TextView
+        android:id="@+id/endDateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        />
+    </LinearLayout>
+
+</LinearLayout>

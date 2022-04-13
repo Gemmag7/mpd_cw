@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Main menu xml page that has all options to be selected by user
+Created on 02/04/2022 by Gemma Grant s2030516 -->
+
+    <!--Icons for menu selection are from here:"https://icons8.com" -->
+
+<!--This is the xml file that structures whats inside the navigation drawer -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--This grouping tag makes sure you can only select one option at a time, this is needed because these are all different fragments that will be opening-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/current_roadworks"
+            android:title="Current Roadworks"
+            android:icon="@drawable/ic_8_roadworks"/>
+
+        <item
+            android:id="@+id/planned_roadworks"
+            android:title="Planned Roadworks"
+            android:icon="@drawable/ic_8_planner_black"/>
+
+        <item
+            android:id="@+id/current_incidents"
+            android:title="Current Incidents"
+            android:icon="@drawable/ic_8_car_accident_black"/>
+
+    </group>
+
+</menu>
